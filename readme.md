@@ -2,7 +2,6 @@
 ![Stars](https://img.shields.io/github/stars/roshhellwett/WinActivation?style=for-the-badge)
 ![Forks](https://img.shields.io/github/forks/roshhellwett/WinActivation?style=for-the-badge)
 ![Issues](https://img.shields.io/github/issues/roshhellwett/WinActivation?style=for-the-badge)
-![License](https://img.shields.io/github/license/roshhellwett/WinActivation?style=for-the-badge)
 ![Windows](https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows)
 ---
 # WinActivation
