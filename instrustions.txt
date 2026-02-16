@@ -1,0 +1,14 @@
+# Run as Admin Script
+
+## Overview
+This script is designed to run a specified command or program with administrator privileges on Windows systems. It prompts for administrator approval and executes the desired action securely.
+
+## Features
+- Requests administrator privileges before execution
+- Ensures safe and controlled execution of commands requiring elevated rights
+- User-friendly and straightforward to use
+
+## Usage
+1. Run the WinActivator.exe 
+
+created by @roshhellwett
