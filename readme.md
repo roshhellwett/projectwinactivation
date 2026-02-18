@@ -4,7 +4,7 @@
 ![Issues](https://img.shields.io/github/issues/roshhellwett/WinActivation?style=for-the-badge)
 ![Windows](https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows)
 ---
-# Project WinActivation
+# PROJECT WINACTIVATION
 A powerful and streamlined Windows activation utility — designed to *simplify activation tasks* with intuitive commands and automation.
 
 > 🛠️ *Effortlessly activate Windows systems with minimal setup.*  
