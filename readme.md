@@ -40,6 +40,8 @@ WinActivation is designed for quick execution. Follow these steps to get started
 ```bash
    git clone [https://github.com/roshhellwett/WinActivation.git](https://github.com/roshhellwett/WinActivation.git)
    cd WinActivation
+   Run the Application:
+   Run the WinActivator.exe
 ```
 ## 📂 Project Structure
 ```
