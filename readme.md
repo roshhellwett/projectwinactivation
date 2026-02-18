@@ -22,27 +22,25 @@ A powerful and streamlined Windows activation utility — designed to *simplify 
 * **Secure Execution:** Ensures safe and controlled execution of commands requiring elevated rights.
 * **Ease of Use:** User-friendly and straightforward to use.
 
----
-
 ## 🛠️ Prerequisites
 
 To run WinActivation, you will need:
 * **Operating System:** Windows 10 / 11 compatible environment.
 * **Permissions:** Administrative access to run commands/scripts.
 
----
-
 ## 🚀 Installation & Usage
 
 WinActivation is designed for quick execution. Follow these steps to get started:
 
-1. **Clone the repository:**
 ```bash
    git clone [https://github.com/roshhellwett/WinActivation.git](https://github.com/roshhellwett/WinActivation.git)
    cd WinActivation
    Run the Application:
    Run the WinActivator.exe
 ```
+
+---
+
 ## 📂 Project Structure
 ```
 WinActivation/
@@ -60,5 +58,3 @@ WinActivation/
 
 © 2026 [Zenith Open Source Projects](https://zenithopensourceprojects.vercel.app/). All Rights Reserved.  
 Zenith is a Open Source Project Idea's by @roshhellwett
-
----
