@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name            = "projectwinactivation"
-version         = "1.0.0"
+version         = "1.0.1"
 description     = "Powerful Windows utility toolkit - System management, diagnostics, and activation tools"
 readme          = "README.md"
 requires-python = ">=3.10"

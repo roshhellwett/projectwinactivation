@@ -19,11 +19,13 @@ Usage:
     projectwinactivation --help
 """
 
-__version__ = "1.0.0"
-__author__ = "roshhellwett"
-__license__ = "MIT"
-__email__ = "roshhellwett@icloud.com"
-__url__ = "https://github.com/zenithopensourceprojects/projectwinactivation"
+from projectwinactivation.__version__ import (
+    __version__,
+    __author__,
+    __license__,
+    __email__,
+    __url__,
+)
 
 __all__ = [
     "__version__",
