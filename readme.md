@@ -7,6 +7,8 @@
 
 comprehensive Windows utility toolkit that provides essential system management tools through an intuitive interactive menu interface. Whether you need to check system information, manage drivers, clean disk space, or diagnose network issues, this toolkit has you covered.
 
+![SAMPLE](https://github.com/roshhellwett/projectwinactivation/blob/68ced43768519df5b91fd6119449b68fd38c6c92/sample/sample.png)
+
 ---
 
 ## Features
