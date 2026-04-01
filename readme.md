@@ -22,8 +22,9 @@
 - [Usage Guide](#usage-guide)
 - [Menu Options](#menu-options)
 - [System Requirements](#system-requirements)
-- [Development](#development)
 - [License](#license)
+- [Contributing](#contributing)
+- [Security](#security)
 - [Support](#support)
 
 ---
@@ -93,16 +94,8 @@ pip install projectwinactivation
 git clone https://github.com/zenithopensourceprojects/projectwinactivation.git
 cd projectwinactivation
 
-# Install in development mode
-pip install -e .
-```
-
-### Method 3: Install in Development Mode with Dev Tools
-
-```bash
-git clone https://github.com/zenithopensourceprojects/projectwinactivation.git
-cd projectwinactivation
-pip install -e ".[dev]"
+# Install the package
+pip install .
 ```
 
 ---
@@ -248,83 +241,6 @@ Some features require elevated permissions:
 
 ---
 
-## Development
-
-### Setting Up Development Environment
-
-```bash
-# Clone the repository
-git clone https://github.com/zenithopensourceprojects/projectwinactivation.git
-cd projectwinactivation
-
-# Create virtual environment (recommended)
-python -m venv venv
-.\venv\Scripts\activate
-
-# Install with development dependencies
-pip install -e ".[dev]"
-```
-
-### Running Tests
-
-```bash
-# Run all tests
-pytest tests/
-
-# Run tests with verbose output
-pytest tests/ -v
-
-# Run tests with coverage report
-pytest tests/ --cov=src/projectwinactivation
-```
-
-### Building the Package
-
-```bash
-# Install build tools
-pip install build
-
-# Build distribution packages
-python -m build
-
-# The packages will be in the 'dist/' directory
-```
-
-### Project Structure
-
-```
-projectwinactivation/
-├── src/
-│   └── projectwinactivation/
-│       ├── __init__.py           # Package initialization
-│       ├── __main__.py           # Entry point
-│       ├── __version__.py        # Version info
-│       ├── cli.py                # CLI interface
-│       ├── assets/
-│       │   └── banners.py        # ASCII banners
-│       └── utils/
-│           ├── activation.py      # Windows activation
-│           ├── disk.py          # Disk cleanup
-│           ├── drivers.py        # Driver management
-│           ├── firewall.py       # Firewall management
-│           ├── network.py        # Network diagnostics
-│           ├── processes.py      # Process monitor
-│           ├── product_key.py    # Product key finder
-│           ├── services.py       # Service manager
-│           ├── startup.py        # Startup manager
-│           ├── system_info.py    # System information
-│           └── updates.py        # Windows update
-├── tests/
-│   └── test_utils.py            # Unit tests
-├── pyproject.toml               # Package configuration
-├── README.md                    # This file
-├── LICENSE                      # MIT License
-├── security.md                  # Security policy
-└── contributing.md              # Contributing guidelines
-```
-
----
-
 ## Dependencies
 
 | Package | Version | Purpose |
@@ -342,15 +258,11 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contributing
 
-Contributions are welcome! Please read our [Contributing Guidelines](contributing.md) before submitting pull requests.
-
-### Development Guidelines
-
-1. Follow PEP 8 style guidelines
-2. Add type hints where possible
-3. Write docstrings for functions and classes
-4. Include tests for new functionality
-5. Update documentation as needed
+Contributions are welcome! Please read our [Contributing Guidelines](contributing.md) for detailed information on:
+- Development setup
+- Coding standards
+- Pull request process
+- Code review criteria
 
 ---
 
