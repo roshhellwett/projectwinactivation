@@ -1,0 +1,71 @@
+[build-system]
+requires      = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name            = "projectwinactivation"
+version         = "1.0.0"
+description     = "Powerful Windows utility toolkit - System management, diagnostics, and activation tools"
+readme          = "README.md"
+requires-python = ">=3.10"
+license         = { text = "MIT" }
+authors = [
+    { name = "roshhellwett", email = "roshhellwett@icloud.com" },
+]
+keywords        = ["windows", "activation", "system", "utility", "admin", "toolkit"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: System :: Systems Administration",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage         = "https://github.com/zenithopensourceprojects/projectwinactivation"
+Repository       = "https://github.com/zenithopensourceprojects/projectwinactivation"
+Documentation    = "https://github.com/zenithopensourceprojects/projectwinactivation#readme"
+Issues           = "https://github.com/zenithopensourceprojects/projectwinactivation/issues"
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "pytest-cov>=4.0"]
+
+dependencies = [
+    "typer[all]>=0.12",
+    "rich>=13.0",
+]
+
+[project.scripts]
+projectwinactivation = "projectwinactivation.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["projectwinactivation*"]
+exclude = ["projectwinactivation.tests*"]
+
+[tool.setuptools.package-data]
+projectwinactivation = ["assets/*.py"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_functions = ["test_*"]
+addopts = "-v --tb=short"
+
+[tool.coverage.run]
+source = ["src/projectwinactivation"]
+omit = ["*/tests/*", "*/__pycache__/*"]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+]
